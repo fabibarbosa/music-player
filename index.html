@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="src/css/style.css" rel="stylesheet">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="player">
+                <audio src="src/song/hey.mp3" id="song" type="audio/mpeg">
+                </audio>
+                <div class="song">
+                    <img  class="song-cover" src="src/img/summer.jpg"> 
+                    <h4 class="song-name">Joao</h4>
+                    <p class="song-author">Pedrin</p>
+                </div>
+    
+                <div class="player-controls-bar">
+                    <span class="player-time time-current">00:10</span>
+                    <div class="player-progress-bar">
+                        <div class="player-progress-bar-current"></div>
+                    </div>
+                    <span class="player-time time-duration">00:10</span>
+                </div>
+                
+                <div class="player-controls-buttons">
+                    <button class="btn btn-previous"> <i class='bx bx-skip-previous'></i> </button>
+                    <button class="btn btn-play"><i class="btn-icon" data-action="previous" class='bx bx-play'></i></button>
+                    <button class="btn btn-next"><i data-action = "next" class='bx bx-skip-next'></i></button>
+                </div>
+            </div> <!--Fim do player-->
+
+
+
+            <div class="playlist">
+                <h2 class="playlist-title"> Playlist <i class='bx bxs-playlist'></i></h2>
+                <ul class="playlist-ul">
+                   
+                </ul>
+            </div> <!-- Fim do playlst-->
+        </div> <!--Fim do card-->
+    </div><!--Fim do container-->
+    <script  src="src/js/script.js"></script>
+
+</body>
+</html>
