@@ -14,7 +14,7 @@ const model = ( () => {
             name: "Smile",
             author: "Benjamin Tissot",
             cover: "src/img/smile.jpg",
-            src: "src/song/bensound-summer.mp3",
+            src: "src/song/bensound-smile.mp3",
             position: 1,
             tags : "positive,kids,pianno,fun"
         },
